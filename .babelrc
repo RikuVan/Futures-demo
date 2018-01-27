@@ -1,0 +1,10 @@
+{
+  plugins: [
+    "emotion",
+    ["transform-react-jsx", { "pragma":"h" }]
+  ],
+  presets: [
+    'react',
+    ['latest', { modules: false }],
+  ],
+}
