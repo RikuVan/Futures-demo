@@ -53,6 +53,7 @@ export const Main = styled("main")`
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 20px;
+  min-height: 20vh;
 `;
 
 const loading = keyframes`
