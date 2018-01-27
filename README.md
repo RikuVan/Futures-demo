@@ -1,7 +1,7 @@
 Demo of Futures for api requests
 ================================
 
-This is a small experiment to try out/demonstrate some of the features of Futures as an altenative to resolving data from api requests. The requests are actually made with fetch the results of which are wrapped with Fluture, the Futures lib used in this demo.
+This is a small experiment to try out/demonstrate some of the features of Futures as an altenative to resolving data from http requests. The native fetch is wrapped with Fluture, providing a lazy, cancellable api.
 
 Technologies
 ----------------
